@@ -1,4 +1,4 @@
 Kaggle-code
 ===========
 
-Ipython notebooks with code I used to complete Kaggle competitions
+Ipython notebooks containing the code I used to complete Kaggle competitions.  

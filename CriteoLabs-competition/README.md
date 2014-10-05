@@ -1,0 +1,10 @@
+CriteoLabs-compeition
+=====================
+
+Display advertising is a billion dollar effort and one of the central uses of machine learning on the Internet. However, its data and methods are usually kept under lock and key. In this research competition, CriteoLabs provided a week’s worth of data to develop models predicting ad click-through rate (CTR).
+
+For the cometition, we are asked to submit the predicted probability of click for each ad in the test set for evaluation.  Kaggle scores a portion of the test set publicly during the competition period, and reserves a portion for private scoring at the end of the competition. Submissions are evaluated using the logarithmic loss error metric, which provides extreme punishments for being both confident and wrong.
+
+Since the training data was so large, I decided to separately model each day of the training set (seven days total), with stochastic gradient descent classification. I combined the daily solutions for my two final submissions - one averaged all of the daily solutions with equal weights and the other had linearly increasing model weights. In the daily models, I include all of the integer features (I1-I13), and the categorical features with less than 10,000 distinct text values (16 of the categorical features). I preprocessed the integer features by first filling the missing values with the feature mean, then standardizing the features by removing the mean and scaling to unit variance. I transformed the categorical data to numeric values, then encoded the numeric values. After combining the integer and encoded categorical features, there were about 18,300 features for each day of training data.
+
+This Ipython notebook contains all of the code I used for this Kaggle competition, and some additional exploration of feature ranking and model evaluation methods using the integer feature data. A summary of this project can be found at http://www.kellygwiseman.com/#!criteo-labs-advertising-challenge/cpvu.
