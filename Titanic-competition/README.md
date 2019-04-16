@@ -7,4 +7,4 @@ In this Kaggle challenge, we are asked to apply the tools of machine learning to
 
 I used the python package scikit-learn to perform all of the data modeling.  I used several machine learning tools, including the following classifiers: logistic regression, decision tree, random forest, adaboost, and gradient boosting. Since this is a knowledge competition, I wanted to both learn how to use a variety of classifiers, and to see how well they perform on the Titanic dataset. 
 
-This Ipython notebook contains all of the code I used for this Kaggle competition. A summary of this project can be found at http://www.kellygwiseman.com/#!titanic-survival-prediction/c1svg.
+This Ipython notebook contains all of the code I used for this Kaggle competition.
