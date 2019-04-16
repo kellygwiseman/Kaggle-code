@@ -7,4 +7,4 @@ Kaggle provides a set of test projects, and we are asked to submit the probabili
 
 My approach to this competition was to predict which projects are exciting based purely on the training data ground truth outcome - is the project exciting or not.  I did not try to predict the individual components of an exciting project and aggregate the results.  I limited my scope to analyzing the project and essay data (which were included for both the training and test sets).  The dataset includes 660,129 training projects spanning 2003-2013 and 44,772 test projects submitted during the first few months of 2014.
 
-This Ipython notebook contains all of the code I used for this Kaggle competition, as well as feature importance analysis and visualizations. A summary of this project can be found at http://www.kellygwiseman.com/#!donorschooseorg-competition/c9lz.
+This Ipython notebook contains all of the code I used for this Kaggle competition, as well as feature importance analysis and visualizations.
