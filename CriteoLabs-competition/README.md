@@ -1,4 +1,4 @@
-CriteoLabs-compeition
+CriteoLabs  competition
 =====================
 
 Display advertising is a billion dollar effort and one of the central uses of machine learning on the Internet. However, its data and methods are usually kept under lock and key. In this research competition, CriteoLabs provided a week’s worth of data to develop models predicting ad click-through rate (CTR).
