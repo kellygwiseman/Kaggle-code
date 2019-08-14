@@ -1,4 +1,4 @@
-KDD_Cup_2014-competition
+KDD Cup 2014 Competition
 ========================
 
 DonorsChoose.org is an online charity that makes it easy to help students in need through school donations. The 2014 KDD Cup asks participants to help DonorsChoose.org identify projects that are exceptionally exciting to the business, at the time of posting. While all projects on the site fulfill some kind of need, certain projects have a quality above and beyond what is typical. By identifying and recommending such projects early, they will improve funding outcomes, better the user experience, and help more students receive the materials they need to learn (project description taken from Kaggle website).
